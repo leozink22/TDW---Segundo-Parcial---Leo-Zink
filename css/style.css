@@ -7,11 +7,20 @@
 
 header{
     background-color: #002529;
+    height: 90px;
 }
 
-.ListaIzquierda ul li {
+.Titulo1{
+    
+    display: inline-block;
+    color: white;
+}
+
+.ListaIzquierda ul li h2{
+    color: white;
     list-style: none;
     display: flex;
+    display: inline;
     justify-content: space-between;
     gap: 10px;
 } 
